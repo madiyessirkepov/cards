@@ -1,6 +1,8 @@
 .home {
   display: flex;
-  padding: 100px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
 }
 
 .home > div {
@@ -8,6 +10,8 @@
   height: 100px;
   text-align: center;
   transition: z-index 0.3s;
+  margin-right: -20px;
+  color: white;
 }
 
 .card:hover {
