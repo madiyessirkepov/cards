@@ -6,6 +6,10 @@
 .home > div {
   width: 50px;
   height: 100px;
-  background-color: lightblue;
   text-align: center;
+  transition: z-index 0.3s;
+}
+
+.card:hover {
+  z-index: 100;
 }
