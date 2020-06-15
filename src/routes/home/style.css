@@ -1,0 +1,11 @@
+.home {
+  display: flex;
+  padding: 100px;
+}
+
+.home > div {
+  width: 50px;
+  height: 100px;
+  background-color: lightblue;
+  text-align: center;
+}
